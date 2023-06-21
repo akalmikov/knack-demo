@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true, /*This is for "path" module import*/
+		"baseUrl": ".", 
+		"paths": { 
+			"@pages/*": [
+				"pages/*"
+			],
+			"@helpers/*": [
+				"helpers/*"
+			],
+		}
+	}
+}
